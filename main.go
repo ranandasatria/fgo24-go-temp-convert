@@ -8,7 +8,7 @@ import (
 )
 
 func main() {
-	for{fmt.Println("Selamat datang\n1. Konversi Suhu\n2. Riwayat Konversi\n0. Keluar")
+	for{fmt.Println("---\n1. Konversi Suhu\n2. Riwayat Konversi\n0. Keluar")
 	var choice int
 	fmt.Print("Masukkan pilihan: ")
 	fmt.Scanln(&choice)
