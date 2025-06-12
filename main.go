@@ -13,11 +13,13 @@ func main(){
 	fmt.Scanln(&choice)
 	var celcius int
 	if choice == 1{
-		fmt.Print("Masukkan suhu dalam celcius: ")
+		fmt.Print("Masukkan suhu dalam Celcius: ")
 		fmt.Scanln(&celcius)
 		calculate.CtoK(celcius)
 		calculate.CtoF(celcius)
-		calculate.CtoR(celcius) // hasilnya masih 0.000
+		calculate.CtoR(celcius)
+	} else if choice == 2 {
+		fmt.Println("Menu belum tersedia")
 	} else {
 		fmt.Println("Menu belum tersedia")
 	}
